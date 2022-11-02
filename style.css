@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.heading {
+  text-align: center;
+  background-color: #31efb7;
+  max-width: 680px;
+  margin: auto;
+  padding: 2rem;
+}
+
+#bill-amount {
+  font-size: 14px;
+  background-color: #31efb7;
+  color: black;
+}
+
+#cash-given {
+  background-color: #31efb7;
+  color: black;
+}
+
+table {
+  table-layout: auto;
+  border-collapse: collapse;
+  border: 2px solid #31efb7;
+  border-radius: 0.2rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+caption {
+  background-color: #31efb7;
+  color: white;
+  padding: 1rem;
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+}
+
+td {
+  border: 2px solid #31efb7;
+  text-align: center;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  border: 2px solid #31efb7;
+  padding: 8px 8px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description {
+  text-align: center;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #333;
+  color: black;
+}
+
+button {
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #1f2937;
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer-msg {
+  color: black;
+  text-align: center;
+  margin-top: 0.8rem;
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer {
+  background-color: #2b2b2b;
+  padding: 1rem 1rem;
+  /* margin-top: 12rem; */
+  text-align: center;
+  color: black;
+}
